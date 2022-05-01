@@ -2,8 +2,8 @@
 
 /* default window dimensions (overwritten via -g option): */
 enum {
-	WIN_WIDTH  = 800,
-	WIN_HEIGHT = 600
+	WIN_WIDTH  = 1600,
+	WIN_HEIGHT = 1200
 };
 
 /* colors and font are configured with 'background', 'foreground' and
@@ -48,7 +48,7 @@ static const bool ALPHA_LAYER = false;
 #ifdef _THUMBS_CONFIG
 
 /* thumbnail sizes in pixels (width == height): */
-static const int thumb_sizes[] = { 32, 64, 96, 128, 160 };
+static const int thumb_sizes[] = { 64, 128, 192, 256, 320 };
 
 /* thumbnail size at startup, index into thumb_sizes[]: */
 static const int THUMB_SIZE = 3;
